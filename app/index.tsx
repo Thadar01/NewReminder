@@ -3,16 +3,17 @@ import React from 'react'
 import ReminderList from '@/src/screens/ReminderList'
 import { StatusBar } from 'expo-status-bar'
 import AddReminder from '@/src/screens/AddReminder'
-import ReminderContainer from '@/src/screens/ReminderContainer'
+
 import Time from '@/src/screens/components/Time'
 import { GestureHandlerRootView } from 'react-native-gesture-handler'
+import MainReminderScreen from '@/src/screens/MainReminderScreen'
 
 const index = () => {
   return (
     <>
     <GestureHandlerRootView>
       <StatusBar style='dark'/>
-     <AddReminder/>
+     <MainReminderScreen/>
      {/* <Time/> */}
      </GestureHandlerRootView>
     </>

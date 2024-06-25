@@ -17,7 +17,7 @@ interface TDatePicker{
         mode="date"
         display="spinner"
         value={selectedDate}
-        textColor="black"
+        textColor="white"
        onChange={onChangeDate}
       />
     </View>
