@@ -1,18 +1,12 @@
 import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
-  reminderContainer: {
-    backgroundColor: "#230143",
-    height:"100%",
-    width:"100%",
-    
-    
-  },
+ 
   listContainer: {
     backgroundColor: "#0F001E",
-    width: "90%",
-    height: "90%",
-    borderRadius: 10,
+    width: "100%",
+    height: "100%",
+  
   },
   reminderTextStyle: {
     color: "#89F8FF",
