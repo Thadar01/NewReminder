@@ -2,8 +2,8 @@ import ReminderList from "./screens/ReminderList";
 
 const reminderSlice = (set:any) => ({
   reminderList:[],
-  isEdit:false,
-  selectedReminder:{},
+ 
+
   addReminderList:(reminderList:any)=>set((state:any)=>({reminderList:[...state.reminderList,reminderList]})),
 
   deleteReminderList: (id: string) => set((state: any) => ({
@@ -15,9 +15,9 @@ const reminderSlice = (set:any) => ({
   })),
 
 
-  editSelectedReminder:(item:{})=>set(()=>({selectedReminder:item})),
+
 
   
-  handleEdit:(bool:boolean)=>set(()=>({isEdit:bool}))
+
 });
  export default reminderSlice

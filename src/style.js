@@ -3,8 +3,8 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
  
   listContainer: {
-    backgroundColor: "#0F001E",
-    width: "100%",
+    
+    width: "95%",
     height: "100%",
   
   },
@@ -25,21 +25,20 @@ const styles = StyleSheet.create({
     width: 12,
     height: 2,
     margin: 2,
-    marginLeft: 15,
-    borderTopLeftRadius: "none",
-    borderTopRightRadius: "none",
-    borderBottomLeftRadius: "100%",
-    borderBottomRightRadius: "100%",
+    marginLeft: 20,
+  
   },
   addNewReminderContainer: {
     flexDirection: "row",
-    margin:10
+    margin:10,
+    marginBottom:20
   },
   showListContainer: {
+   
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems:"center",
-    margin: 4,
+    margin:4,
 
     width:"100%",
     height:70,
@@ -49,5 +48,8 @@ const styles = StyleSheet.create({
     marginBottom: 2,
     fontSize: 12,
   },
+  textContainer:{
+    margin:10
+  }
 });
 export default styles;
